@@ -1,0 +1,173 @@
+/* Start Normalize */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1390px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* End Normalize */
+
+/* Start header section  */
+.header {
+  display: flex;
+}
+
+.header__left {
+  position: relative;
+}
+
+.left-img {
+  position: relative;
+  left: 0;
+  width: 670px;
+  height: 833.82px;
+  margin-right: 180px;
+}
+
+.header__right {
+  align-self: center;
+}
+
+.form__subtitle {
+  color: var(--800, #2D3748);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__title {
+  color: var(--900, #1A202C);
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.label__title {
+  color: var(--700, #4A5568);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.email__password {
+  width: 330px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 17px 20px;
+}
+
+.email__color {
+  color: var(--800, #2D3748);
+}
+
+.pass__color {
+  color: #000;
+}
+
+.label__title {
+  margin-bottom: 11px;
+  margin-top: 11px;
+}
+
+.label__remember {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.remember__me {
+  color: var(--800, #2D3748);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 11px;
+  margin-right: 143px
+}
+
+.login__btn {
+  width: 347px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #04C35C;
+  border: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+  margin-bottom: 15px;
+}
+
+.google__btn {
+  width: 347px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--800, #2D3748);
+  border: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.end__item {
+  margin-top: 162px;
+  color: #616161;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.end__link {
+  margin-top: 162px;
+  color: var(--700, #2B6CB0);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* End header section  */
